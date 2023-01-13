@@ -1,0 +1,1638 @@
+/*
+Theme Name: Twenty Twenty-One
+Theme URI: https://example.com/twenty-twenty-one-child/
+Description: Twenty Twenty-One Child Theme
+Author: Kamal
+Template: twentytwentyone
+Version: 1.0.0
+License: 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyone-child
+*/
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.menu {
+    list-style: none;
+    display: inline-flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: inherit;
+}
+
+li {
+    margin: 0;
+    padding: 0px 15px;
+    list-style: none;
+}
+
+nav.navbar.navbar-expand-lg.fixed-top.py-3.navbar-1.morez-index {
+    z-index: 1050 !important;
+}
+
+a {
+    cursor: pointer;
+    color: white !important;
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+
+button.btn.nav-btn {
+    cursor: pointer;
+    color: white !important;
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+
+button.btn.nav-btn:hover {
+    text-decoration: none !important;
+    cursor: pointer;
+    color: orangered !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    cursor: pointer;
+    color: orangered !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img.nav-img {
+    max-width: 80px;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-54 {
+    position: relative;
+    display: inline-block;
+}
+
+button.sub-menu-toggle {
+    display: none;
+}
+
+ul.sub-menu {
+    display: none !important;
+    position: absolute !important;
+    min-width: 260px;
+    z-index: 9999;
+    padding: 16px 8px;
+    right: 0;
+    border-top: 3px solid #2ea3f2;
+    margin-top: 5px;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page {
+    padding: 8px 15px;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-54:hover ul.sub-menu {
+    display: block !important;
+}
+
+li.nav-item.active-1 {
+    padding: 0 !important;
+}
+
+/* Change navbar on scroll */
+
+.navbar-1.active-1 {
+    background-color: hsla(0, 0%, 100%, 1) !important;
+    transition: background-color 1000ms linear;
+}
+
+.navbar-1.active-1 a {
+    color: black !important;
+}
+
+
+.navbar-1.active-1 button.btn.nav-btn {
+    color: black !important;
+}
+
+.navbar-1.active-1 a:hover {
+    color: #3a2bc9 !important;
+    font-weight: 400;
+}
+
+.dropdown {
+    display: none !important;
+    position: absolute;
+}
+
+/* ################## HOME PAGE ################## */
+.content.text-center {
+    padding: 160px 0px;
+}
+
+.banner-image {
+    background-color: #090909;
+    opacity: 0.8;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.vh-100 {
+    height: 100vh !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-cneter {
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+h2.text-black {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'DM Serif Display', serif;
+}
+
+/* ################## HOME PAGE First Section ################## */
+section.container-sec-one {
+    padding-top: 48px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img.img-cls {
+    max-width: 85%;
+}
+
+/* ################## HOME PAGE Second Section ################## */
+h2.cls_main_heading {
+    text-align: center;
+    padding: 15px 0px 18px;
+}
+
+.cls_one_sec {
+    background-color: #5a4af5;
+    color: #ffff;
+    padding: 25px 40px;
+    border-radius: 10px 10px 100px;
+}
+
+p {
+    margin: 0px 0 40px;
+    opacity: 0.7;
+}
+
+.global_img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* ################## HOME PAGE Third Section ################## */
+.margin-top-30 {
+    margin-top: 60px;
+    background-image: url(https://hirerekrut.com/wp-content/themes/twentytwentyone-child/assets/img/value.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+
+h2.custom_title {
+    color: #fff;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.b_700 {
+    font-weight: 700 !important;
+}
+
+.p_30 {
+    padding: 30px !important;
+}
+
+/* ################## HOME PAGE Fourth Section ################## */
+.icon_cls_column {
+    padding-top: 25px;
+}
+
+.icon_cls_column i {
+    background: #5a4af5;
+}
+
+i.fas.fa-award {
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.fa-award:before {
+    content: "\e9ab";
+    font-size: 30px;
+}
+
+.icon_text {
+    color: #fff;
+}
+
+.txt_title {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: none;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.fa.fa-envelope {
+    font-size: 20px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    font-size: 25px;
+}
+
+i.fa.fa-language {
+    font-size: 20px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.fa-language::before {
+    content: "\f1ab";
+    font-size: 25px;
+}
+
+/* ################## HOME PAGE Fifth Section ################## */
+.zoom:hover .img-news-cls {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.15);
+}
+
+.img-news-cls {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-data:before {
+    content: '';
+    display: block;
+    width: 47px;
+    height: 5px;
+    background: #5a4af5;
+    margin: 16px 0 20px;
+}
+
+.text_data {
+    color: black !important;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+/* ################## HOME PAGE Sixth Section ################## */
+.counter-sec-outer {
+    margin-top: 100px;
+    padding-bottom: 65px;
+    background-image: url(https://hirerekrut.com/wp-content/themes/twentytwentyone-child/assets/img/bg-2_02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.counter-inner {
+    margin-bottom: 30px;
+}
+
+h2.counter-head {
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.counter {
+    font-size: 50px;
+    font-weight: 700;
+    color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+.text-one {
+    font-weight: 400;
+    color: #f2f2f2;
+    font-size: 16px;
+    opacity: 1;
+}
+
+/* ################## HOME PAGE Last Section ################## */
+.section.sec-last-tab {
+    margin-top: 28px;
+}
+
+ul.tabs {
+    text-align: center;
+}
+
+ul.tabs li {
+    background: none;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+a.tab-link {
+    color: #090909 !important;
+}
+
+a.tab-link:hover {
+    border-bottom: 3px #5a4af5 solid !important;
+}
+
+.tab-conten {
+    padding: 15px;
+}
+
+h3.service-hd {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+/* ################## HOME PAGE Last Section ################## */
+section.footer-sec {
+    background-color: #2d2f44;
+    color: #fff;
+    margin-top: 15px;
+    padding: 50px 0px 10px 0px;
+}
+
+.center {
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+/* ################## Footer Section ################## */
+.footer-img {
+    max-width: 75px;
+}
+
+.footer-link:hover .footer-tab-link {
+    color: #f2f2f2;
+    /* -ms-transform: scale(1.5); */
+    /* IE 9 */
+    /* -webkit-transform: scale(1.5); */
+    /* Safari 3-8 */
+    /* transform: scale(1.15); */
+}
+
+ul.footer-tab {
+    display: block !important;
+    margin-top: 25px;
+}
+
+li.footer-tab-link {
+    padding: 5px 0px;
+}
+
+ul.inline-list {
+    display: flex;
+    justify-content: center;
+}
+
+li.footer-item.active {
+    padding: 0px !important;
+}
+
+ul#menu-footernavsecond li {
+    padding: 8px 0px !important;
+}
+
+ul#menu-footernavsecond {
+    display: block !important;
+}
+
+ul#menu-footernavfirst li {
+    padding: 8px 0px !important;
+}
+
+ul#menu-footernavfirst {
+    display: block !important;
+}
+
+.social-link:hover .icon_cls_column i {
+    background-color: #867ce3;
+}
+
+.fa.fa-linkedin {
+    font-size: 20px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.fa.fa-facebook-f {
+    font-size: 20px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.fa.fa-instagram {
+    font-size: 20px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+hr {
+    border-top: 1px solid #dee2e6 !important;
+    border: 1;
+    margin-bottom: 0 !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 424.99px) {
+
+    /* ################### Mobile Nav ################### */
+    img.nav-img {
+        max-width: 50px;
+    }
+
+    nav.navbar.navbar-expand-lg.fixed-top.py-3.navbar-1.active-1 {
+        padding: 5px 15px !important;
+    }
+
+    .dropdown {
+        position: relative !important;
+        display: inline-block !important;
+    }
+
+    .dropbtn {
+        background-color: transparent !important;
+        color: black;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .dropbtn:hover .dropdown-content {
+        display: block;
+    }
+
+    .menu {
+        list-style: none;
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 200px;
+        z-index: 1;
+        padding: 20px 10px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px;
+        display: block;
+    }
+
+    .show {
+        display: block;
+    }
+
+    ul.navbar-nav.ml-auto {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around;
+    }
+
+    ul#menu-navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ################### Home Page ################### */
+    .content.text-center {
+        padding: 60px 0px;
+    }
+
+    h2.text-black {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300 !important;
+        padding-top: 30px;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    h5 {
+        font-size: 14px !important;
+    }
+
+    p {
+        font-size: 10px !important;
+    }
+
+    section.container-sec-one {
+        padding-top: 35px;
+    }
+
+    .cls_one_sec {
+        padding: 15px 20px;
+        border-radius: 0px 10px 65px;
+        margin-bottom: 15px !important;
+    }
+
+    .global_img {
+        padding-bottom: 15px;
+    }
+
+    .margin-top-30 {
+        margin-top: 20px;
+    }
+
+    .p_30 {
+        padding: 0px !important;
+        padding-top: 25px !important;
+    }
+
+    i.fas.fa-award {
+        color: #ffffff;
+        width: 40px;
+        height: 40px !important;
+    }
+
+    .txt_title {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        margin-top: 0px !important;
+        padding-top: 25px;
+        margin-bottom: 0px;
+    }
+
+    .col-xs-3 {
+        width: 20% !important;
+    }
+
+    .col-xs-9 {
+        width: 80% !important;
+    }
+
+    i.fa.fa-envelope {
+        color: #ffffff;
+        width: 40px;
+        height: 40px !important;
+    }
+
+    i.fa.fa-language {
+        color: #ffffff;
+        width: 40px;
+        height: 40px !important;
+    }
+
+    .image-data:before {
+        margin: 5px 0 5px !important;
+        height: 3px;
+    }
+
+    .image-data {
+        margin-bottom: 20px;
+    }
+
+    .image-data:before {
+        margin: 10px 0 5px;
+    }
+
+    .text_data {
+        font-size: 14px !important;
+    }
+
+    .counter-sec-outer {
+        padding: 0px !important;
+        margin: 0 !important;
+    }
+
+    .counter {
+        text-align: center;
+    }
+
+    .text-one {
+        text-align: center;
+        font-size: 16px !important;
+    }
+
+    h3.service-hd {
+        font-weight: 500;
+    }
+
+    p.service-para {
+        font-size: 14px !important;
+    }
+
+    /* Footer Page */
+    h3.content-heading {
+        text-align: center;
+    }
+
+    .footer-copyright.text-center {
+        font-size: 8px;
+    }
+
+    /* Recruitment solution Page */
+    h1.text-black {
+        font-size: 18px;
+        letter-spacing: 0.7px;
+    }
+
+    h5.text-black {
+        letter-spacing: 0.7px;
+    }
+
+    h3.red.py-3 {
+        color: red !important;
+        font-size: 20px;
+        letter-spacing: 0.7px;
+    }
+
+    .rec-sol-tag-img-rotate {
+        height: auto;
+        width: 240px;
+        transform: rotate(-5deg);
+    }
+
+    /* HR Consulting Page */
+    .center-sm {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    /* Payrol Service Page */
+    img.payroll-process {
+        width: 100%;
+    }
+
+    .left-block {
+        padding: 40px 70px 10px 40px;
+    }
+
+    p.payroll-p {
+        font-size: 12px !important;
+    }
+
+    /* Video Interviewing Page */
+    .vinterview-section {
+        padding: 60px 0px 0px 0px !important;
+    }
+
+    h1.black {
+        font-size: 20px;
+    }
+
+    h5.black {
+        width: 100% !important;
+    }
+}
+
+/* Change navbar styling on small viewports */
+@media screen and (min-width: 425px) and (max-width: 767.98px) {
+    .dropdown {
+        position: relative !important;
+        display: inline-block !important;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 200px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: darkorange;
+    }
+
+    .show {
+        display: block;
+    }
+
+    ul.navbar-nav.ml-auto {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .cls_one_sec {
+        padding: 15px 20px;
+        border-radius: 0px 10px 65px;
+        margin-bottom: 15px !important;
+    }
+
+    h3 {
+        font-size: 15px !important;
+    }
+
+    p {
+        margin-bottom: 0 !important;
+    }
+
+    .icon_cls_column {
+        padding-top: 25px;
+        text-align: -webkit-center;
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .image-data:before {
+        width: 40px;
+        height: 3px;
+        margin: 15px 0 10px;
+    }
+
+    .image-data {
+        margin: 0px 0px 20px 33px;
+    }
+
+    .counter {
+        text-align: center;
+        font-size: 35px !important;
+    }
+
+    .text-one {
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+    ul.tabs li {
+        padding: 10px 10px;
+    }
+
+    .footer-img {
+        max-width: 70px;
+        margin-bottom: 15px;
+    }
+
+    .col-md-3.col-sm-3.col-xs-3 {
+        width: 20% !important;
+    }
+
+    .col-md-9.col-sm-9.col-xs-9 {
+        width: 80% !important;
+    }
+
+    .counter-head {
+        font-size: 35px;
+        font-weight: 500
+    }
+
+    .col-sm-3.col-md-3 {
+        width: 50%;
+    }
+
+    .text-one {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .info-service {
+        margin: 5px 0 15px 65px;
+    }
+
+    /* ################## About PAGE first Section ################## */
+    .col-md-8.col-sm-12.info-service-about {
+        text-align: center !important;
+    }
+
+    /* ################## Recruitment Solution Page ################## */
+    .rec-sol-sec-two::after {
+        bottom: -95px;
+    }
+
+    .rec-sol-tag-img-rotate {
+        width: 350px;
+    }
+
+    /* HR Consulting Page */
+    .center-sm {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    /* ################## Pyrol Service Page ################## */
+    .left-block {
+        padding: 25px 70px 10px 40px !important;
+    }
+
+    p.payroll-p {
+        font-size: 12px !important;
+    }
+
+    /* ################## Video Interviewing Page ################## */
+    .vinterview-section {
+        padding: 115px 0px !important;
+    }
+
+    h3.red.py-3 {
+        font-size: 20px !important;
+    }
+
+    h3.vinterview-h3 {
+        font-size: 35px !important;
+    }
+
+    h1.black {
+        font-size: 25px !important;
+    }
+
+    h5.black {
+        font-size: 15px !important;
+        width: 100% !important;
+    }
+
+    /* ################## Footer PAGE ################## */
+    h3.content-heading {
+        font-size: 25px !important;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .dropdown {
+        position: relative !important;
+        display: inline-block !important;
+    }
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 200px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: darkorange;
+    }
+
+    .show {
+        display: block;
+    }
+
+    ul.navbar-nav.ml-auto {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    /* ################## About PAGE first Section ################## */
+    .icon_cls_column_about {
+        padding-left: 10px !important;
+    }
+
+    .img-about-cls {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    /* Recruitment Solution Page */
+    .rec-sol-sec-two-tag-img {
+        height: auto !important;
+        width: 100% !important;
+        min-height: none !important;
+    }
+
+    .rec-sol-sec-two {
+        padding: 40px 0px;
+    }
+
+    .rec-sol-sec-two::after {
+        bottom: -75;
+    }
+
+    .rec-sol-tag-img-rotate {
+        height: auto !important;
+        width: 100% !important;
+        transform: rotate(-5deg) !important;
+        margin-top: 50px !important;
+    }
+
+    /* ################## Payrol PAGE Section ################## */
+    .left-block {
+        padding: 25px 70px 10px 40px !important;
+    }
+
+    /* ################## Video Interview PAGE Section ################## */
+    .vinterview-section {
+        padding: 120px 0px !important;
+    }
+
+    h5.black {
+        width: 100% !important;
+    }
+
+    .vinterview-color {
+        height: 250px !important;
+    }
+
+    .vinterview-h6 {
+        font-size: 12px !important;
+    }
+
+}
+
+/* ################## About PAGE first Section ################## */
+.img-about-cls {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.icon_cls_column_about {
+    padding-top: 25px;
+}
+
+.icon_cls_column_about i {
+    background: #5a4af5;
+}
+
+/* ################## Service PAGE First Section ################## */
+.item-cont {
+    margin: 0px 0px 28px;
+}
+
+img.img-cls-service {
+    max-width: 100%;
+}
+
+.item-info {
+    position: absolute;
+    bottom: 48px;
+    padding: 0px 0px 0px 18px;
+}
+
+h5.local-sec-header {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+span.span-icon-service {
+    font-size: 10px;
+}
+
+a.hrf-content:hover .item-info span i.before-text {
+    width: 8px;
+    visibility: visible;
+    margin-right: 10px;
+    left: 0;
+    opacity: 1;
+}
+
+a.hrf-content:hover .item-info span i {
+    width: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+i.fa.fa-arrow-right.before-text {
+    left: -10px !important;
+    position: relative;
+    width: 0px;
+    opacity: 0;
+    visibility: hidden;
+    margin: 0;
+}
+
+i.fa.fa-arrow-right {
+    font-size: 10px;
+    display: inline-block;
+    transition: .3s;
+    margin-left: 5px;
+}
+
+a.hrf-content:hover {
+    color: white !important;
+}
+
+/* ################## Contact PAGE First Section ################## */
+.contact_us {
+    background-image: url(https://multirecruit.com/wp-content/uploads/2019/11/consutant-03.jpg) !important;
+}
+
+.main-short-cd {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 39px;
+    margin: 29px 0px;
+}
+
+.ad-txt-outer {
+    background: #2c2f43;
+    margin: 38px 0px;
+    padding: 30px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.errorinput {
+    width: 100%;
+    color: red !important;
+    text-align: right;
+    display: block;
+}
+
+button.submit {
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
+    border: 0px !important;
+    background-color: #688ccd;
+    font-size: 25px;
+    color: white;
+    margin: 25px 0px;
+}
+
+button.submit:hover {
+    background-color: green;
+}
+
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: -internal-light-dark(rgb(232, 240, 254), rgba(70, 90, 126, 0.4)) !important;
+    color: fieldtext !important;
+}
+
+span.span-con {
+    margin: 12px;
+    font-size: 15px;
+}
+
+.link-ph {
+    text-transform: lowercase;
+}
+
+.map-details {
+    margin: 28px 0px;
+}
+
+/* ################## Job Seekers PAGE ################## */
+h1.text-jobseeker {
+    font-family: Gotham Book;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 3px;
+    line-height: 1.4em;
+    color: #fff;
+    float: left;
+}
+
+.img-jobseeker {
+    max-width: 80%;
+}
+
+.jobseeker-block {
+    box-shadow: 1px 2px 5px 5px #ccc;
+    border-radius: 2px;
+    padding: 6px;
+    min-height: 245px !important;
+    margin-bottom: 15px;
+}
+
+.post-image {
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.jobseeker-container {
+    padding: 10px;
+}
+
+/* Carousel  */
+.carousel {
+    padding: 10px 8px;
+}
+
+.caruouseImage {
+    text-align: center;
+}
+
+/* ################## Recruitment Solution PAGE First Section ################## */
+.text-black {
+    max-width: 550px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+}
+
+h1.text-black {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+h5.text-black {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 2em;
+}
+
+h3.red.py-3 {
+    color: red !important;
+}
+
+h3.red.py-3::after {
+    position: relative;
+    content: "";
+    border-bottom: 2px solid #edbb5f;
+    width: 50px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.rec-sol-sec-tag-img {
+    height: 200px;
+    min-height: 200px;
+    width: auto;
+}
+
+.rec-sol-sec-two {
+    background-position: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: rgba(225, 225, 225, 0.32);
+}
+
+.rec-sol-sec-two-tag-img {
+    height: 200px;
+    min-height: 200px;
+    width: auto;
+}
+
+.rec-sol-sec-two::after {
+    content: '';
+    background-color: #fff;
+    display: block;
+    width: 120%;
+    height: 109px;
+    /* left: 0; */
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+    transform: rotate(-4deg);
+    top: auto;
+}
+
+.rec-sol-tag-img-rotate {
+    height: auto;
+    /* min-height: 200px; */
+    width: 340px;
+    transform: rotate(-5deg);
+    margin-top: -33px;
+}
+
+.rec-sol-sec-three::after {
+    content: "";
+    display: block;
+    clear: both;
+    /* visibility: hidden; */
+    line-height: 0;
+    height: 0;
+    width: 0;
+}
+
+.rec-sol-sec-four {
+    padding: 50px 0px;
+    background-position: center;
+    /* height: 350px; */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: rgba(225, 225, 225, 0.32);
+}
+
+.rec-sol-sec-four::before {
+    content: '';
+    background-color: #fff;
+    display: block;
+    width: 120%;
+    height: 109px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -45px;
+    transform: rotate(4deg);
+}
+
+.rec-sol-sec-four-img {
+    width: 100%;
+}
+
+/* ################## HR Consulting PAGE First Section ################## */
+.col-lg-9.col-md-9.col-sm-8.btm-border {
+    border-bottom: 1.5px solid #e4e4e4;
+}
+
+img.hr-pge-img {
+    width: 40px;
+}
+
+.hr-consl-section-one {
+    padding: 98px 0px;
+    background-position: center;
+    /* height: 350px; */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: rgba(225, 225, 225, 0.32);
+}
+
+.hr-consl-section-one::before {
+    content: '';
+    background-color: #fff;
+    display: block;
+    width: 120%;
+    height: 109px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -45px;
+    transform: rotate(4deg);
+}
+
+/* ################## Payroll Services PAGE First Section ################## */
+.payrollBlock {
+    background: #f8f8f8;
+    padding: 30px;
+}
+
+h5.payrollh5.py-3::after {
+    position: relative;
+    content: "";
+    border-bottom: 2px solid #edbb5f;
+    width: 50px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.payrollh6 {
+    padding-top: 30px;
+}
+
+h6.payrollh6::after {
+    position: relative;
+    content: "";
+    border-bottom: 2px solid #edbb5f;
+    width: 50px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.payrollwhite {
+    background-color: white !important;
+}
+
+.left-block {
+    box-shadow: 1px 2px 5px 2px #ccc;
+    border-radius: 2px;
+    background: #fff;
+    height: 120px;
+    padding: 60px 70px 10px 40px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.left-block:hover {
+    background-image: linear-gradient(to right, #93CAF1, #CECECE);
+}
+
+.payroll-ser-sec-two {
+    background-position: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: rgba(225, 225, 225, 0.32);
+}
+
+.black {
+    color: black;
+}
+
+/* ################## Video Interview Page ################## */
+.vinterview-video {
+    width: 100%;
+}
+
+.vinterview-section {
+    padding: 250px 0px;
+}
+
+.absolute-1 {
+    position: absolute;
+    width: 100%;
+}
+
+.relative-1 {
+    position: relative;
+}
+
+h3.vinterview-h3 {
+    font-size: 55px;
+    color: #ffffff !important;
+}
+
+h5.black {
+    width: 50%;
+}
+
+.vinterview-color {
+    color: #000000 !important;
+    padding-top: 30px !important;
+    padding-right: 10px !important;
+    padding-bottom: 55px !important;
+    padding-left: 10px !important;
+}
+
+.blue {
+    background-color: #66c4ff;
+}
+
+.pink {
+    background-color: #ff66bc;
+}
+
+.darkyellow {
+    background-color: #ffcc66;
+}
+
+.green {
+    background-color: #a7ff77;
+}
+
+.yellow {
+    background-color: #fffa66;
+}
+
+.vinterview-h6 {
+    font-size: 14px;
+    color: #000000 !important;
+    text-transform: uppercase;
+}
+
+.vinterview-img {
+    width: 80%;
+}
+
+/* ################## HireTalent Page ################## */
+button.hiring-reg-btn {
+    padding: 10px 115px;
+    background: #2870C1;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+}
+
+button.hiring-reg-btn:hover {
+    background-color: #2ea3f2;
+}
+
+button.hiring-login-btn {
+    padding: 10px 100px;
+    background: green !important;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+}
+
+button.hiring-login-btn:hover {
+    background-color: rgba(255, 174, 0, 0.856) !important;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* ################## search Job Page ################## */
+.align-self-end {
+    float: right !important;
+    text-align: right;
+}
+
+.job-content {
+    margin: 12px 0px 10px 0px;
+    padding: 0px;
+    border: 1px solid #7FB3E5;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.new-job-open {
+    background-color: #E52A31;
+    position: absolute;
+    margin-top: -14px;
+    left: 0px;
+    z-index: 1;
+    padding: 3px 25px;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.job-content-left {
+    background-color: #FCFDFF;
+    margin: 0px;
+    padding: 0px 25px 20px 25px;
+    height: auto;
+}
+
+.job-content-right {
+    background-color: #F6FBFF;
+    margin: 0px;
+    height: 220px;
+    border-left: 1px solid #7FB3E5;
+    min-height: 200px;
+}
+
+span.posted-days {
+    color: #669932;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span.expires {
+    color: #e96151;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span.job-title {
+    text-align: center;
+    padding: 13px;
+    margin: 0px;
+    border-top: 0px !important;
+}
+
+h2.capitalize {
+    text-transform: capitalize !important;
+}
+
+.job-content-left span i {
+    margin: 5px;
+    padding: 0px;
+    color: #666666;
+    font-weight: 500;
+}
+
+.job-content-left span {
+    margin-right: 10px;
+}
+
+span.view-location {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-height: 20px;
+}
+
+.job-content-left .top-buffer {
+    padding-top: 15px;
+}
+
+.job-content-right .fa {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+a.btn.btn-primary.btn-width {
+    min-width: 130px;
+    font-size: 20px !important
+}
+
+a.btn.btn-primary.btn-width:hover {
+    background-color: #00558e;
+    color: #fff !important;
+}
+
+h5.capitalize {
+    text-transform: capitalize !important;
+}
